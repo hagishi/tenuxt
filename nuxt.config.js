@@ -8,6 +8,7 @@ module.exports = {
     { src: '~assets/sass/app.scss', lang: 'scss' }
     // { src: 'bulma/bulma.sass', lang: 'sass' }
   ],
+  mode: 'spa',
   head: {
     title: 'yeah',
     meta: [
