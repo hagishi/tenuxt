@@ -2,9 +2,6 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
-        yeah
-      </h1>
       <h3><nuxt-link to="/about">about</nuxt-link></h3>
     </div>
   </section>
@@ -20,13 +17,25 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  h3 {
+    padding: 50px;
+    text-align: center;
+    a {
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      text-indent: 0.25em;
+    }
+  }
 }
 
 .title {
