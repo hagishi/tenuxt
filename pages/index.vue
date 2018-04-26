@@ -2,7 +2,13 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h3><nuxt-link to="/about">about</nuxt-link></h3>
+      <div class="hero">
+        <div class="hero-head">
+          <div class="title">YEAH
+          </div>
+        </div>
+        <p class="is-link"><nuxt-link to="/about">about</nuxt-link></p>
+      </div>
     </div>
   </section>
 </template>

@@ -2,6 +2,12 @@ module.exports = {
   /*
   ** Headers of the page
   */
+
+  css: [
+    // global cssを読み込む
+    { src: '~assets/sass/app.scss', lang: 'scss' }
+    // { src: 'bulma/bulma.sass', lang: 'sass' }
+  ],
   head: {
     title: 'yeah',
     meta: [
