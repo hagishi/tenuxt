@@ -7,6 +7,8 @@
           <div class="title">YEAH
           </div>
         </div>
+        <p>{{ $t('home.title') }}</p>
+
         <p class="is-link"><nuxt-link to="/about">about</nuxt-link></p>
       </div>
     </div>
